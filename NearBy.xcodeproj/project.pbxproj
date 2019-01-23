@@ -339,7 +339,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vervesys.NearBy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d452c65a-3de6-48a1-8939-65ce3afeff19";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -356,7 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vervesys.NearBy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d452c65a-3de6-48a1-8939-65ce3afeff19";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

@@ -433,7 +433,7 @@ open class PulleyViewController: UIViewController {
         
         scrollViewDidScroll(drawerScrollView)
     }
-    func getCategoryName(_ notification: Notification)
+    @objc func getCategoryName(_ notification: Notification)
     {
         self.navigationItem.title = notification.object as? String
         
@@ -642,7 +642,7 @@ open class PulleyViewController: UIViewController {
     
     // MARK: Actions
     
-    func dimmingViewTapRecognizerAction(gestureRecognizer: UITapGestureRecognizer)
+    @objc func dimmingViewTapRecognizerAction(gestureRecognizer: UITapGestureRecognizer)
     {
         if gestureRecognizer == dimmingViewTapRecognizer
         {

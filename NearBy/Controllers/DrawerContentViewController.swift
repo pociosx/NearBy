@@ -28,12 +28,14 @@ class DrawerContentViewController: UIViewController {
         gripperView.layer.cornerRadius = 2.5
         seperatorHeightConstraint.constant = 1.0 / UIScreen.main.scale
     }
-    func getMapData(_ notification: Notification)
+    
+    @objc func getMapData(_ notification: Notification)
     {
         arrPlaces = notification.object as? NSMutableArray
         tableView.reloadData()
     }
-    func getCategoryName(_ notification: Notification)
+    
+    @objc func getCategoryName(_ notification: Notification)
     {
         lblCategory.text = notification.object as? String
     }
